@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="
+http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+<!--whay to write using p schema -->
+
+<bean class="mam.Student" name= "v" p:studentNmae  = "pranav"  p:age = "1"  p:day="77" />
+	 <!--<property name="studentNmae">
+		<value>pranav</value>
+	</property>
+	<property name="age">
+		<value>1</value>
+	</property>
+	<property name="day">
+		<value>2</value>
+	</property>
+	 -->
+	
+        <!-- what to write xml thisng -->
+    	
+    <!-- 
+     <property name="studentNmae" value="pranav">
+	</property><property name="age" value="1"></property>
+	<property name="day" value="88">
+	</property>-->
+	
+
+</beans>

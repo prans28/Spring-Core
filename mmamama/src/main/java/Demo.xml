@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="
+http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean class="Demo.Student" name= "v">
+	
+	
+	             <property name="name" value="pranav"></property>
+	             
+	             
+	             <property name="phone">
+				   <list>
+					   <value>8898d88d</value>
+					   <value>888d8</value>
+					   <value>8s8s8</value>
+				   </list>
+				 </property>
+				 <property name="adress">
+				   <set>
+					   <value>8898d88d</value>
+					   <value>888d8</value>
+					   <value>8s8s8</value>
+				   </set>
+				 </property>
+				 
+				 <property name="course">
+				   <map>
+					  <entry key="jjjjjjjj" value="8786"/>
+				   </map>
+				 </property>
+	</bean>
+</beans>
