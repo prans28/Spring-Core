@@ -11,7 +11,7 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 
 <!--whay to write using p schema -->
 
-<bean class="mam.Student" name= "v" p:studentNmae  = "pranav"  p:age = "1"  p:day="77" />
+<bean class="mam.Student" name= "v" p:studentNmae  = "pranav"  p:age = "1"  p:day="77" />   <!-- ok -->
 	 <!--<property name="studentNmae">
 		<value>pranav</value>
 	</property>
