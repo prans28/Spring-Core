@@ -20,5 +20,12 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 	<constructor-arg value="pranav" type="String"/>
 	<constructor-arg><value type="int">121</value></constructor-arg>
 	<constructor-arg ref="cer"/>
+	<constructor-arg>
+		<list>
+			<value>pranav</value>
+			<value>kumar</value>
+			<value>ok</value>
+		</list>
+	</constructor-arg>
 </bean>
 </beans>
